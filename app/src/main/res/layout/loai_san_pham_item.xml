@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cnssanpham"
+    android:padding="12dp"
+    android:background="@drawable/boder_login"
+    android:orientation="horizontal">
+<ImageView
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:src="@drawable/loaisp"
+    android:id="@+id/imgLoaiSp"
+    android:paddingEnd="12dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        >
+
+
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/tvMaSanPham"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="MaSP"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="#130f40"/>
+
+        <TextView
+            android:id="@+id/tvTenSanPham"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="TenSP"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="#130f40"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgDeleteSP"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:src="@drawable/delete" />
+
+</LinearLayout>

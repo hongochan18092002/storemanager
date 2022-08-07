@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lvChiNhanh"
+    android:padding="12dp"
+    android:orientation="horizontal"
+
+    android:background="@drawable/boder_login">
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/imgCHiNhanh"
+        android:src="@drawable/shop1"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="10"
+
+
+        >
+
+
+        <TextView
+            android:id="@+id/tvMaCNitem"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="MaCN"
+            android:textSize="18dp"
+            android:textColor="#130f40"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <TextView
+            android:id="@+id/tvTenCNitem"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Địa chỉ giao hàng"
+            android:textSize="18dp"
+            android:textColor="#130f40"
+            android:fontFamily="@font/poppinsmedium" />
+
+        <TextView
+            android:id="@+id/tvTenNVitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhân viên quản lý"
+            android:textSize="18dp"
+            android:textColor="#130f40"
+            android:fontFamily="@font/poppinsmedium" />
+
+        <TextView
+            android:id="@+id/tvSdt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="SĐT"
+            android:textSize="18dp"
+            android:textColor="#130f40"
+            android:fontFamily="@font/poppinsmedium" />
+
+
+        <TextView
+            android:id="@+id/tvLuong"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Lương"
+            android:textSize="18dp"
+            android:textColor="#130f40"
+            android:fontFamily="@font/poppinsmedium" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgDelNV"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+
+        android:layout_weight="1"
+        android:src="@drawable/delete" />
+</LinearLayout>

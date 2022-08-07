@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.XinChaoFragment">
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/flContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/boder_login"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+                <TextView
+
+                    android:padding="12dp"
+                    android:layout_width="111dp"
+                    android:layout_height="122dp"
+                    android:text="xin chào" />
+                <TextView
+                    android:id="@+id/tvTongLuongXC"
+                    android:gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="giá"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/boder_login"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+                <TextView
+
+                    android:padding="12dp"
+                    android:layout_width="111dp"
+                    android:layout_height="122dp"
+                    android:text="xin chào" />
+                <TextView
+                    android:id="@+id/tvTongXuatXC"
+                    android:gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="giá"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/boder_login"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+                <TextView
+
+                    android:padding="12dp"
+                    android:layout_width="111dp"
+                    android:layout_height="122dp"
+                    android:text="xin chào" />
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/tvTongNhapXC"
+                    android:text="giá"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/boder_login"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+                <TextView
+
+                    android:padding="12dp"
+                    android:layout_width="111dp"
+                    android:layout_height="122dp"
+                    android:text="xin chào" />
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="giá"
+                    android:id="@+id/tvTienLaiXC"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

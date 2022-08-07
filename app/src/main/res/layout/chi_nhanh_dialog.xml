@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/map"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/edMaCN"
+        android:hint="Mã Chi nhánh"
+        android:fontFamily="@font/poppinsmedium"
+        android:background="@drawable/boder_login"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/edTenCN"
+            android:hint="Chi nhánh"
+            android:fontFamily="@font/poppinsmedium"
+            android:background="@drawable/boder_login"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/edTenNhanVien"
+            android:hint="Tên nhân viên giao hàng"
+            android:fontFamily="@font/poppinsmedium"
+            android:background="@drawable/boder_login"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/edSdt"
+            android:inputType="phone"
+            android:hint="Số điện thoại"
+            android:fontFamily="@font/poppinsmedium"
+            android:background="@drawable/boder_login"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/edLuong"
+            android:hint="Lương "
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:background="@drawable/boder_login"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_margin="20dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSaveNV"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_marginRight="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:text="Lưu"
+
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCancelNV"
+            android:text="Hủy"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

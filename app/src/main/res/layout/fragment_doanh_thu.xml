@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.DoanhThuFragment">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Doanh Thu"
+        android:textAlignment="center"
+        android:textColor="#3498db"
+        android:textSize="40dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:id="@+id/tvTongLuong"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Tổng lương phải trả: "
+        android:textColor="#54a0ff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvTongHangXuat"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Tổng hàng xuất: "
+        android:textColor="#0652DD"/>
+    <TextView
+        android:id="@+id/tvTongHangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="tổng hàng nhập "
+        android:textColor="#fa8231"/>
+    <TextView
+        android:id="@+id/tvTienLai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="tiền lãi: "
+        android:textColor="#fbc531"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+    <com.anychart.AnyChartView
+        android:id="@+id/any_chart_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    </LinearLayout>
+</LinearLayout>

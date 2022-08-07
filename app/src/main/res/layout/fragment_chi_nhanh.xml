@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ChiNhanhFragment">
+
+    <ListView
+        android:padding="20dp"
+        android:paddingBottom="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvNV"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add" />
+
+
+    <TextView
+        android:id="@+id/tvTongLuong"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Tổng lương: "
+        android:textColor="#130f40"
+        android:textSize="20dp" />
+</FrameLayout>

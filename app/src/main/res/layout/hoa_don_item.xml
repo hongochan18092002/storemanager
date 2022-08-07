@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/lvHangXuat"
+    android:padding="12dp"
+
+    android:layout_height="wrap_content"
+    android:background="@drawable/boder_login">
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="76dp"
+        android:layout_height="100dp"
+        android:src="@drawable/invoice"
+        android:id="@+id/imgHangXuat"
+        android:paddingEnd="12dp"/>
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMaHoaDon"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="#130f40"
+            android:text="Mã Hóa đơn"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTenSanPhamHD"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="#130f40"
+                android:layout_weight="2"
+                android:text="Tên sản phẩm"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="#130f40"
+                android:id="@+id/tvTienThueHD"
+                android:text="Giá"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvNgayHD"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="#130f40"
+                android:text="Ngày"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chi nhánh"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="#130f40"
+                android:id="@+id/tvTenChiNhanh"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Người giao hàng"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="#130f40"
+                android:id="@+id/tvTenNVCN"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgDeletelHD"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_weight="1"
+        android:src="@drawable/delete" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:id="@+id/lvTop"
+    android:background="@drawable/boder_login"
+    android:layout_margin="20dp">
+    <ImageView
+        android:layout_marginTop="1dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/y"
+        android:paddingEnd="12dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="TênNV"
+    android:textSize="18dp"
+    android:fontFamily="@font/poppinsmedium"
+    android:textColor="#130f40"
+    android:id="@+id/tvTenCNTop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số lượng hàng "
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#130f40"
+        android:textSize="18sp"
+        android:id="@+id/tvSoLuongTop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#130f40"
+        android:id="@+id/tvXepLoai"/>
+    <TextView
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TênNV"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#130f40"
+        android:id="@+id/tvThuong"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
